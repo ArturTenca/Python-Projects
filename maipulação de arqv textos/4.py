@@ -9,9 +9,9 @@ with open ('par.txt', 'w', encoding='UTF-8') as par:
             try:
                 num = int(input('digite um numero:'))
                 if num % 2 == 0:
-                    par.write('num')
+                    par.write(f'{num}\n')
                 else:
-                    impar.write('num')
+                    impar.write(f'{num}\n')
             except ValueError:
                 print('\nFim do porgrama')
                 break
